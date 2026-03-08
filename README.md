@@ -1,2 +1,5 @@
 # CTF
-CTF challenge write-ups and learning notes
+A collection of CTF challenges I solved while learning cybersecurity.
+This repository documents my approach, analysis and solutions.
+
+****Learning. Practicing. Improving.****
