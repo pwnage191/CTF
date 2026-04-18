@@ -12,14 +12,14 @@ with your input? You can connect to the service here `nc mysterious-sea.picoctf.
 - After sending two packets, the connection was closed.
 - This behavior suggested that the input might be passed directly into a system command.
 - I tested this by appending `ls` to the IP input to check for command execution.
-- <img width="600" height="439" alt="image" src="https://github.com/user-attachments/assets/58a73f23-8b65-4d29-8736-f69e91558041" />
+- <img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/58a73f23-8b65-4d29-8736-f69e91558041" />
 - The command successfully executed and revealed two files:
     - `flag.txt`
     - `script.sh`
 - This confirmed that the service was vulnerable to **command injection**.
 - Next, I appended `cat flag.txt` to the input.
 - This allowed me to read the contents of the file and retrieve the flag.
-- <img width="600" height="388" alt="image" src="https://github.com/user-attachments/assets/46b211a4-691b-4efe-ad6b-e428aac8baa6" />
+- <img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/46b211a4-691b-4efe-ad6b-e428aac8baa6" />
 
 ### Key learnings
 - Command Injection occurs when user input is not properly sanitized and is executed as part of a system command.
