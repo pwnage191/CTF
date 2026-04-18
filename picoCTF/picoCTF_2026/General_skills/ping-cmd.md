@@ -8,7 +8,7 @@ with your input? You can connect to the service here `nc mysterious-sea.picoctf.
 ### Walkthrough
 - I connected to the given service using `nc`.
 - The service prompted me to enter an IP address and displayed which IP was allowed.
-- <img width="600" height="408" alt="image" src="https://github.com/user-attachments/assets/d38407b2-0532-4326-ad63-34dc6a8a8ece" />
+- <img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/d38407b2-0532-4326-ad63-34dc6a8a8ece" />
 - After sending two packets, the connection was closed.
 - This behavior suggested that the input might be passed directly into a system command.
 - I tested this by appending `ls` to the IP input to check for command execution.
