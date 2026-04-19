@@ -9,9 +9,9 @@ I have built my own Git server with my own rules!
     - git clone `ssh://git@foggy-cliff.picoctf.net:65358/git/challenge.git`
     - Entered the password when prompted
 - I navigated to the `challenge` directory and checked the files: `cd challenge` , `ls`
-- <img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/380eff7b-294f-4d56-a0b7-f50b845d80d5" />
+- <img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/380eff7b-294f-4d56-a0b7-f50b845d80d5" />
 - I read the `README.md` file: `cat README.md`
-- <img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/b001cc3e-aac2-4cc5-93b7-3278e2a8d4a9" />
+- <img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/b001cc3e-aac2-4cc5-93b7-3278e2a8d4a9" />
 - It instructed to create and push `flag.txt`
 - It also specified the required identity: `root:root@picoctf`
 - First, I configured the Git username and email:
