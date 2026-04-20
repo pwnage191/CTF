@@ -14,7 +14,7 @@ The flag is the owner’s identity in the form `firstname_lastname`.
 - It showed that the file is a POSIX tar archive
 - Renamed the file from `ch39` to `ch39.tar`.
 - Extracted the archive `(tar -xvf ch39.tar)` and found a file named `usb.image`
-- <img width="600" height="139" alt="image" src="https://github.com/user-attachments/assets/d1217b36-dcd5-4546-9a27-4f6a132bd864" />
+- <img width="600" height="120" alt="image" src="https://github.com/user-attachments/assets/d1217b36-dcd5-4546-9a27-4f6a132bd864" />
 - The challenge title “Deleted file” indicates that the required data might have been removed but still recoverable
 - Next, I verified the file type of `usb.image`
 - A `.image` file is a disk image, which is a complete copy of a storage device like a USB drive
@@ -29,7 +29,7 @@ The flag is the owner’s identity in the form `firstname_lastname`.
 - Verified that `00000168.png` is a valid PNG image file
 - Analyzed the metadata of the image using a tool like `exiftool`
 - Found the owner’s name in the metadata (author/writer field), which is the required flag
-- <img width="600" height="533" alt="image" src="https://github.com/user-attachments/assets/ebe4dfa8-1878-4d66-835f-73d0accf5e2c" />
+- <img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/ebe4dfa8-1878-4d66-835f-73d0accf5e2c" />
 
 ### Key Learnings
 - `foremost` is used for file carving, which means recovering deleted files from raw data
