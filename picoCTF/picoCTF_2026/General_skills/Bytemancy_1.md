@@ -11,7 +11,7 @@ Connect to the program with netcat: `$ nc foggy-cliff.picoctf.net 51657`
 - It asks the user to enter:  
     "Send me ASCII DECIMAL 101 1751 times, side-by-side, no space."
 - In the code: `user_input == "\x65"*1751`
-- <img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/4cc3902a-fd23-4d6e-ba60-2178a7caf3d9" />
+- <img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/4cc3902a-fd23-4d6e-ba60-2178a7caf3d9" />
 - `\x65` is a hexadecimal escape sequence, decimal value 101, which corresponds to the ASCII character `'e'`
 - So, we need to give 1751 'e' characters continuously without spaces
 - I used a Python one-liner to generate the input
@@ -21,7 +21,7 @@ Connect to the program with netcat: `$ nc foggy-cliff.picoctf.net 51657`
 - The first command generates the required string
 - The pipe (`|`) sends this output as input to the netcat connection
 - The program reads the input, checks the condition, and reveals the output
-- <img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/e01bdad9-66fb-45da-9848-77f35182f68b" />
+- <img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/e01bdad9-66fb-45da-9848-77f35182f68b" />
 
 ### Key Learnings
 - A pipe (`|`) connects two commands
